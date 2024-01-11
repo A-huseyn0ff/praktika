@@ -1,0 +1,22 @@
+.form_container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    form{
+        padding:50px ;
+        background-color: rgb(51, 145, 113);
+        border-radius: 10px;
+        opacity: 0.5;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+}

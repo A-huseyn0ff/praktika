@@ -1,0 +1,27 @@
+.mySwiper{
+    .slide{
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+        img{
+            width: 100%;
+            height: 700px;
+        }
+       .txt{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        p{
+            color: #1b745e;
+            font-size: 16px;
+        }
+        h2{
+            color: #1b745e;
+            font-size: 36px;
+        }
+       }
+    }
+    
+}

@@ -1,0 +1,51 @@
+.our_mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg);
+        background-position: center;
+        background-size: cover;
+    .our_container{
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+        height: 100%;
+       width: 80%;
+       .our_left{
+        width: 534px;
+        display: grid;
+        background: #1b745e;
+        height: 534px;
+        padding: 100px;
+        align-items: center;
+        justify-content: center;
+        .txt{
+            display: flex;
+            flex-direction: column;
+
+            color: white;
+        gap: 20px;
+        }
+       }
+       .our_right{
+        width: 534px;
+        height: 534px;
+       }
+    }
+    @media  screen and (max-width:1191px) {
+        .our_container{
+            flex-direction: column-reverse;
+            .our_left{
+                width: 100%;
+                .txt{
+                    text-align: center;
+                }
+            }
+            .our_right{
+                width: 100%;
+            }
+        }
+    }
+}
